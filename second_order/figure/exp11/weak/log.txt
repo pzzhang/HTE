@@ -1,0 +1,473 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/second_order/exp11.py"
+Exact Noise Energy: 0.00490755604456
+Computing regularization path using the LARS ...
+Case: alphaId, alpha =  0 0.000277721425212
+Number of non-zero entries =  4
+Noise_Energy 0.00567359849629
+Case: alphaId, alpha =  1 0.00021946145992
+Number of non-zero entries =  5
+Noise_Energy 0.00561223954456
+Case: alphaId, alpha =  2 0.000212607914248
+Number of non-zero entries =  6
+Noise_Energy 0.00550143214388
+Case: alphaId, alpha =  3 0.000209694333746
+Number of non-zero entries =  7
+Noise_Energy 0.00541823640555
+Case: alphaId, alpha =  4 0.000172801188036
+Number of non-zero entries =  8
+Noise_Energy 0.00531418209247
+Case: alphaId, alpha =  5 0.000120831200976
+Number of non-zero entries =  9
+Noise_Energy 0.00526118629799
+Case: alphaId, alpha =  6 0.000119097631359
+Number of non-zero entries =  10
+Noise_Energy 0.00518084084003
+Case: alphaId, alpha =  7 0.00011062339005
+Number of non-zero entries =  11
+Noise_Energy 0.00514559707936
+Case: alphaId, alpha =  8 8.76718221928e-05
+Number of non-zero entries =  12
+Noise_Energy 0.00513005281793
+Case: alphaId, alpha =  9 8.04881908092e-05
+Number of non-zero entries =  13
+Noise_Energy 0.00512098961224
+Case: alphaId, alpha =  10 7.96968621878e-05
+Number of non-zero entries =  14
+Noise_Energy 0.00510477761812
+Case: alphaId, alpha =  11 7.83355952842e-05
+Number of non-zero entries =  15
+Noise_Energy 0.00506864308602
+Case: alphaId, alpha =  12 7.06453638843e-05
+Number of non-zero entries =  16
+Noise_Energy 0.00503890838406
+Case: alphaId, alpha =  13 6.24635546472e-05
+Number of non-zero entries =  17
+Noise_Energy 0.00502411619038
+Case: alphaId, alpha =  14 6.0609544115e-05
+Number of non-zero entries =  18
+Noise_Energy 0.005000095156
+Case: alphaId, alpha =  15 5.57610836744e-05
+Number of non-zero entries =  19
+Noise_Energy 0.00498149416942
+Case: alphaId, alpha =  16 5.56138200115e-05
+Number of non-zero entries =  20
+Noise_Energy 0.0049062643003
+Case: alphaId, alpha =  17 5.49163837027e-05
+Number of non-zero entries =  21
+Noise_Energy 0.00488542770207
+Case: alphaId, alpha =  18 5.43813827557e-05
+Number of non-zero entries =  22
+Noise_Energy 0.00486182422574
+Case: alphaId, alpha =  19 5.41789240336e-05
+Number of non-zero entries =  23
+Noise_Energy 0.00482949990427
+Case: alphaId, alpha =  20 5.06835899452e-05
+Number of non-zero entries =  24
+Noise_Energy 0.00482303187084
+Case: alphaId, alpha =  21 4.46544816546e-05
+Number of non-zero entries =  25
+Noise_Energy 0.00476423841979
+Case: alphaId, alpha =  22 4.45822438809e-05
+Number of non-zero entries =  26
+Noise_Energy 0.00474487608461
+Case: alphaId, alpha =  23 4.2655769932e-05
+Number of non-zero entries =  27
+Noise_Energy 0.00474420201317
+Case: alphaId, alpha =  24 4.14000514583e-05
+Number of non-zero entries =  28
+Noise_Energy 0.00473530162799
+Case: alphaId, alpha =  25 4.12672734031e-05
+Number of non-zero entries =  29
+Noise_Energy 0.00465357666354
+Case: alphaId, alpha =  26 3.99410152671e-05
+Number of non-zero entries =  30
+Noise_Energy 0.00456773498352
+Case: alphaId, alpha =  27 3.93426149819e-05
+Number of non-zero entries =  31
+Noise_Energy 0.00450226228032
+Case: alphaId, alpha =  28 3.75357224627e-05
+Number of non-zero entries =  32
+Noise_Energy 0.00444598507545
+Case: alphaId, alpha =  29 3.71076006441e-05
+Number of non-zero entries =  33
+Noise_Energy 0.00443854566609
+Case: alphaId, alpha =  30 3.67489478558e-05
+Number of non-zero entries =  34
+Noise_Energy 0.00442682318897
+Case: alphaId, alpha =  31 3.66957381583e-05
+Number of non-zero entries =  35
+Noise_Energy 0.00442163683294
+Case: alphaId, alpha =  32 3.59230364172e-05
+Number of non-zero entries =  36
+Noise_Energy 0.00441479042192
+Case: alphaId, alpha =  33 3.57770732574e-05
+Number of non-zero entries =  37
+Noise_Energy 0.00440673707087
+Case: alphaId, alpha =  34 3.57600757041e-05
+Number of non-zero entries =  38
+Noise_Energy 0.00438924873206
+Case: alphaId, alpha =  35 3.28344525704e-05
+Number of non-zero entries =  39
+Noise_Energy 0.00435253980792
+Case: alphaId, alpha =  36 3.18338768574e-05
+Number of non-zero entries =  40
+Noise_Energy 0.00432257364901
+Case: alphaId, alpha =  37 3.13879297598e-05
+Number of non-zero entries =  41
+Noise_Energy 0.00430447651192
+Case: alphaId, alpha =  38 3.1304875626e-05
+Number of non-zero entries =  42
+Noise_Energy 0.00428695323101
+Case: alphaId, alpha =  39 3.12889204335e-05
+Number of non-zero entries =  43
+Noise_Energy 0.00426805557556
+Case: alphaId, alpha =  40 3.08905132741e-05
+Number of non-zero entries =  44
+Noise_Energy 0.00422667427467
+Case: alphaId, alpha =  41 3.05439562354e-05
+Number of non-zero entries =  45
+Noise_Energy 0.00418486022287
+Case: alphaId, alpha =  42 2.94329553984e-05
+Number of non-zero entries =  46
+Noise_Energy 0.00414669128046
+Case: alphaId, alpha =  43 2.88764176325e-05
+Number of non-zero entries =  47
+Noise_Energy 0.00414124373326
+Case: alphaId, alpha =  44 2.78573427643e-05
+Number of non-zero entries =  48
+Noise_Energy 0.00411933679509
+Case: alphaId, alpha =  45 2.70467373327e-05
+Number of non-zero entries =  49
+Noise_Energy 0.00410044954117
+Case: alphaId, alpha =  46 2.68477675989e-05
+Number of non-zero entries =  49
+Noise_Energy 0.00408086948629
+Case: alphaId, alpha =  47 2.67757023886e-05
+Number of non-zero entries =  49
+Noise_Energy 0.00408086948629
+Case: alphaId, alpha =  48 2.58983798992e-05
+Number of non-zero entries =  50
+Noise_Energy 0.0040736945435
+Case: alphaId, alpha =  49 2.56619708278e-05
+Number of non-zero entries =  51
+Noise_Energy 0.004046186155
+Case: alphaId, alpha =  50 2.53419303788e-05
+Number of non-zero entries =  52
+Noise_Energy 0.00402964010876
+Case: alphaId, alpha =  51 2.50717300005e-05
+Number of non-zero entries =  53
+Noise_Energy 0.00401860997868
+Case: alphaId, alpha =  52 2.48348329684e-05
+Number of non-zero entries =  54
+Noise_Energy 0.00401400610154
+Case: alphaId, alpha =  53 2.43448940456e-05
+Number of non-zero entries =  55
+Noise_Energy 0.00400013462731
+Case: alphaId, alpha =  54 2.36797704248e-05
+Number of non-zero entries =  56
+Noise_Energy 0.00399456197888
+Case: alphaId, alpha =  55 2.21251536479e-05
+Number of non-zero entries =  57
+Noise_Energy 0.00397888764559
+Case: alphaId, alpha =  56 2.18683101068e-05
+Number of non-zero entries =  58
+Noise_Energy 0.00395995079051
+Case: alphaId, alpha =  57 2.17908694229e-05
+Number of non-zero entries =  59
+Noise_Energy 0.00394321548736
+Case: alphaId, alpha =  58 2.10727534752e-05
+Number of non-zero entries =  60
+Noise_Energy 0.0039429597664
+Case: alphaId, alpha =  59 2.02819957084e-05
+Number of non-zero entries =  61
+Noise_Energy 0.0039318830895
+Case: alphaId, alpha =  60 2.02345326582e-05
+Number of non-zero entries =  62
+Noise_Energy 0.0039298689962
+Case: alphaId, alpha =  61 2.0130834042e-05
+Number of non-zero entries =  63
+Noise_Energy 0.00390526553862
+Case: alphaId, alpha =  62 2.002861479e-05
+Number of non-zero entries =  64
+Noise_Energy 0.00390389553805
+Case: alphaId, alpha =  63 2.0023328769e-05
+Number of non-zero entries =  65
+Noise_Energy 0.00390037332618
+Case: alphaId, alpha =  64 1.96978016721e-05
+Number of non-zero entries =  66
+Noise_Energy 0.00389729516601
+Case: alphaId, alpha =  65 1.94367720517e-05
+Number of non-zero entries =  67
+Noise_Energy 0.00389249066431
+Case: alphaId, alpha =  66 1.93652107843e-05
+Number of non-zero entries =  68
+Noise_Energy 0.00389070308117
+Case: alphaId, alpha =  67 1.92045000204e-05
+Number of non-zero entries =  69
+Noise_Energy 0.00388566235079
+Case: alphaId, alpha =  68 1.91832952841e-05
+Number of non-zero entries =  70
+Noise_Energy 0.00388432441562
+Case: alphaId, alpha =  69 1.85543838938e-05
+Number of non-zero entries =  71
+Noise_Energy 0.00387890781585
+Case: alphaId, alpha =  70 1.78835728744e-05
+Number of non-zero entries =  72
+Noise_Energy 0.00387429985917
+Case: alphaId, alpha =  71 1.61322353236e-05
+Number of non-zero entries =  72
+Noise_Energy 0.00387044511849
+Case: alphaId, alpha =  72 1.59151258808e-05
+Number of non-zero entries =  72
+Noise_Energy 0.00387044511849
+Case: alphaId, alpha =  73 1.54138967786e-05
+Number of non-zero entries =  73
+Noise_Energy 0.00386913666741
+Case: alphaId, alpha =  74 1.52522700009e-05
+Number of non-zero entries =  74
+Noise_Energy 0.00386901003239
+Case: alphaId, alpha =  75 1.48624502796e-05
+Number of non-zero entries =  75
+Noise_Energy 0.00386332709681
+Case: alphaId, alpha =  76 1.47378515955e-05
+Number of non-zero entries =  76
+Noise_Energy 0.00386219932959
+Case: alphaId, alpha =  77 1.44303138405e-05
+Number of non-zero entries =  77
+Noise_Energy 0.0038595887276
+Case: alphaId, alpha =  78 1.32655799101e-05
+Number of non-zero entries =  78
+Noise_Energy 0.00385610051545
+Case: alphaId, alpha =  79 1.2761260696e-05
+Number of non-zero entries =  79
+Noise_Energy 0.00385545591931
+Case: alphaId, alpha =  80 1.22177044683e-05
+Number of non-zero entries =  80
+Noise_Energy 0.00385474703554
+Case: alphaId, alpha =  81 1.20033296988e-05
+Number of non-zero entries =  81
+Noise_Energy 0.00384400655562
+Case: alphaId, alpha =  82 1.14124181117e-05
+Number of non-zero entries =  82
+Noise_Energy 0.00384215824389
+Case: alphaId, alpha =  83 1.12938060825e-05
+Number of non-zero entries =  83
+Noise_Energy 0.00384120770565
+Case: alphaId, alpha =  84 1.12117238821e-05
+Number of non-zero entries =  84
+Noise_Energy 0.0038392303679
+Case: alphaId, alpha =  85 1.09444106537e-05
+Number of non-zero entries =  85
+Noise_Energy 0.00383853410254
+Case: alphaId, alpha =  86 1.08320277493e-05
+Number of non-zero entries =  86
+Noise_Energy 0.00383303215103
+Case: alphaId, alpha =  87 1.04856062073e-05
+Number of non-zero entries =  87
+Noise_Energy 0.00382734353774
+Case: alphaId, alpha =  88 9.59591580967e-06
+Number of non-zero entries =  88
+Noise_Energy 0.00382169302622
+Case: alphaId, alpha =  89 9.53034803825e-06
+Number of non-zero entries =  89
+Noise_Energy 0.00381776428481
+Case: alphaId, alpha =  90 9.40267641592e-06
+Number of non-zero entries =  90
+Noise_Energy 0.00381625605288
+Case: alphaId, alpha =  91 9.3957245523e-06
+Number of non-zero entries =  90
+Noise_Energy 0.0038187475143
+Case: alphaId, alpha =  92 9.39152333207e-06
+Number of non-zero entries =  90
+Noise_Energy 0.0038187475143
+Case: alphaId, alpha =  93 8.8275295979e-06
+Number of non-zero entries =  91
+Noise_Energy 0.00381711044353
+Case: alphaId, alpha =  94 8.4455311124e-06
+Number of non-zero entries =  92
+Noise_Energy 0.00381424771965
+Case: alphaId, alpha =  95 8.43492441139e-06
+Number of non-zero entries =  93
+Noise_Energy 0.00381301135069
+Case: alphaId, alpha =  96 8.03011973629e-06
+Number of non-zero entries =  94
+Noise_Energy 0.00380941964006
+Case: alphaId, alpha =  97 7.64502723933e-06
+Number of non-zero entries =  95
+Noise_Energy 0.00380929782672
+Case: alphaId, alpha =  98 7.39385449984e-06
+Number of non-zero entries =  96
+Noise_Energy 0.00380877252566
+Case: alphaId, alpha =  99 7.35712104044e-06
+Number of non-zero entries =  97
+Noise_Energy 0.00380598521597
+Case: alphaId, alpha =  100 7.06877289169e-06
+Number of non-zero entries =  98
+Noise_Energy 0.00380575241765
+Case: alphaId, alpha =  101 6.59363804601e-06
+Number of non-zero entries =  98
+Noise_Energy 0.00380554104537
+Case: alphaId, alpha =  102 6.54028218826e-06
+Number of non-zero entries =  98
+Noise_Energy 0.00380554104537
+Case: alphaId, alpha =  103 6.52951184232e-06
+Number of non-zero entries =  99
+Noise_Energy 0.0038054733357
+Case: alphaId, alpha =  104 6.33494840287e-06
+Number of non-zero entries =  100
+Noise_Energy 0.00380428743055
+Case: alphaId, alpha =  105 6.1971289303e-06
+Number of non-zero entries =  101
+Noise_Energy 0.00380313705373
+Case: alphaId, alpha =  106 6.0447305334e-06
+Number of non-zero entries =  102
+Noise_Energy 0.00380289918447
+Case: alphaId, alpha =  107 5.96756250288e-06
+Number of non-zero entries =  103
+Noise_Energy 0.00380211657838
+Case: alphaId, alpha =  108 5.85555251261e-06
+Number of non-zero entries =  104
+Noise_Energy 0.00380186770945
+Case: alphaId, alpha =  109 5.66945534956e-06
+Number of non-zero entries =  105
+Noise_Energy 0.0038011938315
+Case: alphaId, alpha =  110 5.61808825099e-06
+Number of non-zero entries =  106
+Noise_Energy 0.00380086108299
+Case: alphaId, alpha =  111 4.99881081422e-06
+Number of non-zero entries =  107
+Noise_Energy 0.00380013428901
+Case: alphaId, alpha =  112 4.88599845242e-06
+Number of non-zero entries =  107
+Noise_Energy 0.00379995298882
+Case: alphaId, alpha =  113 4.88402356799e-06
+Number of non-zero entries =  107
+Noise_Energy 0.00379995298882
+Case: alphaId, alpha =  114 4.59592208313e-06
+Number of non-zero entries =  107
+Noise_Energy 0.00379953562469
+Case: alphaId, alpha =  115 4.10292703801e-06
+Number of non-zero entries =  107
+Noise_Energy 0.00379953562469
+Case: alphaId, alpha =  116 3.83293545356e-06
+Number of non-zero entries =  108
+Noise_Energy 0.00379938953006
+Case: alphaId, alpha =  117 3.69617186543e-06
+Number of non-zero entries =  109
+Noise_Energy 0.00379924151623
+Case: alphaId, alpha =  118 3.65007214629e-06
+Number of non-zero entries =  110
+Noise_Energy 0.00379901844926
+Case: alphaId, alpha =  119 3.04726152934e-06
+Number of non-zero entries =  111
+Noise_Energy 0.00379899043244
+Case: alphaId, alpha =  120 3.00422936406e-06
+Number of non-zero entries =  112
+Noise_Energy 0.00379876707041
+Case: alphaId, alpha =  121 2.95836730157e-06
+Number of non-zero entries =  113
+Noise_Energy 0.00379871674137
+Case: alphaId, alpha =  122 2.95801548548e-06
+Number of non-zero entries =  114
+Noise_Energy 0.00379854931865
+Case: alphaId, alpha =  123 2.80343479054e-06
+Number of non-zero entries =  115
+Noise_Energy 0.00379833761718
+Case: alphaId, alpha =  124 2.36841553705e-06
+Number of non-zero entries =  116
+Noise_Energy 0.00379831496951
+Case: alphaId, alpha =  125 2.20786656901e-06
+Number of non-zero entries =  117
+Noise_Energy 0.00379824696168
+Case: alphaId, alpha =  126 1.91267359804e-06
+Number of non-zero entries =  118
+Noise_Energy 0.00379819307537
+Case: alphaId, alpha =  127 1.05673349129e-06
+Number of non-zero entries =  119
+Noise_Energy 0.00379810876434
+Case: alphaId, alpha =  128 6.87384772897e-07
+Number of non-zero entries =  120
+Noise_Energy 0.00379809514781
+Case: alphaId, alpha =  129 5.90804119617e-07
+Number of non-zero entries =  121
+Noise_Energy 0.00379807449165
+Bregman iteration step =  3
+Number of non-zero groups =  1
+num_iter, Noise_Energy 700 0.00606245466914
+Bregman iteration step =  14
+Number of non-zero groups =  2
+num_iter, Noise_Energy 900 0.00570966629857
+Bregman iteration step =  19
+Number of non-zero groups =  3
+num_iter, Noise_Energy 1400 0.00567388178725
+Bregman iteration step =  21
+Number of non-zero groups =  4
+num_iter, Noise_Energy 800 0.00561252283551
+Bregman iteration step =  25
+Number of non-zero groups =  5
+num_iter, Noise_Energy 1500 0.0053750236577
+Bregman iteration step =  26
+Number of non-zero groups =  6
+num_iter, Noise_Energy 1100 0.00494208985766
+Bregman iteration step =  28
+Number of non-zero groups =  7
+num_iter, Noise_Energy 1700 0.00490085270525
+Bregman iteration step =  29
+Number of non-zero groups =  9
+num_iter, Noise_Energy 1500 0.0047294852427
+Bregman iteration step =  30
+Number of non-zero groups =  9
+num_iter, Noise_Energy 1300 0.00470867212714
+Bregman iteration step =  33
+Number of non-zero groups =  12
+num_iter, Noise_Energy 1200 0.00470075994786
+Bregman iteration step =  36
+Number of non-zero groups =  14
+num_iter, Noise_Energy 1100 0.00465086762157
+Bregman iteration step =  42
+Number of non-zero groups =  15
+num_iter, Noise_Energy 1200 0.00464166230251
+Bregman iteration step =  43
+Number of non-zero groups =  16
+num_iter, Noise_Energy 900 0.0046114096116
+Bregman iteration step =  45
+Number of non-zero groups =  16
+num_iter, Noise_Energy 900 0.00457916770832
+Bregman iteration step =  46
+Number of non-zero groups =  16
+num_iter, Noise_Energy 900 0.00457041992954
+Bregman iteration step =  47
+Number of non-zero groups =  17
+num_iter, Noise_Energy 900 0.00454506514491
+Bregman iteration step =  48
+Number of non-zero groups =  18
+num_iter, Noise_Energy 800 0.00452407159751
+Bregman iteration step =  49
+Number of non-zero groups =  17
+num_iter, Noise_Energy 1000 0.00452408819928
+Case: lambdaId, Lamda =  0 20.0
+Number of non-zero groups =  1
+num_iter, Noise_Energy 2300 0.00606245466914
+Case: lambdaId, Lamda =  31 77.4834437086
+Number of non-zero groups =  2
+num_iter, Noise_Energy 9100 0.00570966629857
+Case: lambdaId, Lamda =  34 107.339449541
+Number of non-zero groups =  3
+num_iter, Noise_Energy 21000 0.00567388178725
+Case: lambdaId, Lamda =  35 123.157894737
+Number of non-zero groups =  4
+num_iter, Noise_Energy 19700 0.00561252283551
+Case: lambdaId, Lamda =  36 144.444444444
+Number of non-zero groups =  14
+num_iter, Noise_Energy 29999 0.0046743264872
+Case: lambdaId, Lamda =  37 174.626865672
+Number of non-zero groups =  15
+num_iter, Noise_Energy 25700 0.0046983976703
+Case: lambdaId, Lamda =  38 220.754716981
+Number of non-zero groups =  21
+num_iter, Noise_Energy 24700 0.00459817909167
+Case: lambdaId, Lamda =  39 300.0
+Number of non-zero groups =  28
+num_iter, Noise_Energy 29400 0.00438982633003
+
+Process finished with exit code 0

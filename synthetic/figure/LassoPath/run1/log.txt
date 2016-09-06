@@ -1,0 +1,26 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/synthetic/exp11.py"
+Exact Noise Energy: 0.00518871056919
+Initial noise energy: 0.038247676297
+Case: lambdaId, Lamda =  0 20.0
+Number of non-zero groups =  1
+num_iter, Noise_Energy 2000 0.0161831979715
+Case: lambdaId, Lamda =  7 24.0246406571
+Number of non-zero groups =  2
+num_iter, Noise_Energy 3700 0.0128278361264
+Case: lambdaId, Lamda =  23 44.4866920152
+Number of non-zero groups =  3
+num_iter, Noise_Energy 5900 0.00515694153109
+Case: lambdaId, Lamda =  34 107.339449541
+Number of non-zero groups =  8
+num_iter, Noise_Energy 10300 0.0050306641079
+Case: lambdaId, Lamda =  37 174.626865672
+Number of non-zero groups =  10
+num_iter, Noise_Energy 17000 0.00501345913445
+Case: lambdaId, Lamda =  38 220.754716981
+Number of non-zero groups =  14
+num_iter, Noise_Energy 20700 0.0048934419893
+Case: lambdaId, Lamda =  39 300.0
+Number of non-zero groups =  26
+num_iter, Noise_Energy 26200 0.00443602797641
+
+Process finished with exit code 0

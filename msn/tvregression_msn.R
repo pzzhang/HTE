@@ -1,0 +1,23 @@
+setwd("C:/Users/t-pezha/OneDrive - Microsoft/src/msn")
+
+library(stringi)
+library(data.table)
+library(lubridate)
+
+
+load("C:/Users/t-pezha/OneDrive - Microsoft/src/msn/data/SFCGenderExperimentData.RData")
+colnames(dt_merged)[which(colnames(dt_merged) %in% c("Avg.x","SampleSize.x","StdDev.x","Gender.x","Avg.y","SampleSize.y","StdDev.y","Gender.y") )] <- c("AvgF","SampleSizeF","StdDevF","GenderF","AvgM","SampleSizeM","StdDevM","GenderM")
+setkey(dt_merged, Flight, Metric, SegmentName, SegmentValue)
+# dtC = dt_merged[.("Control","Acquisitions Free"),]
+# dtT = dt_merged[.("Treatment","Acquisitions Free"),]
+dtC = dt_merged[.("Control","Acquisitions Paid"),]
+dtT = dt_merged[.("Treatment","Acquisitions Paid"),]
+dtCT = merge(dtC, dtT, by = c("Metric", "SegmentName", "SegmentValue"), suffixes=c(".C", ".T"))
+
+tol = .Machine$double.eps
+dtCT[, c("DeltaF", "DeltaM", "VarDeltaF", "VarDeltaM") := .(AvgF.T-AvgF.C, AvgM.T-AvgM.C, StdDevF.C^2/SampleSizeF.C + StdDevF.T^2/SampleSizeF.T, StdDevM.C^2/SampleSizeM.C + StdDevM.T^2/SampleSizeM.T)]
+dtCT[, c("RDeltaF", "RDeltaM", "VarRDeltaF", "VarRDeltaM") := .(log((AvgF.T+tol)/(AvgF.C+tol)), log((AvgM.T+tol)/(AvgM.C+tol)), (StdDevF.C^2/SampleSizeF.C+tol^2)/(AvgF.C+tol)^2 + (StdDevF.T^2/SampleSizeF.T+tol^2)/(AvgF.T+tol)^2, (StdDevM.C^2/SampleSizeM.C+tol^2)/(AvgM.C+tol)^2 + (StdDevM.T^2/SampleSizeM.T+tol^2)/(AvgM.T+tol)^2)]
+
+dt_tvreg = dtCT[, .(SegmentName, SegmentValue, AvgF.C, AvgF.T, DeltaF, VarDeltaF, RDeltaF, VarRDeltaF, AvgM.C, AvgM.T, DeltaM, VarDeltaM, RDeltaM, VarRDeltaM)]
+# write.csv(dt_tvreg, file = "data/msn.csv")
+# write.csv(dt_tvreg, file = "data/msn_paid.csv")

@@ -1,0 +1,93 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/bingad/exp11rpm.py"
+Case: lambdaId, Lamda =  59 0.0184605885985
+Number of non-zero groups =  2
+num_iter, Noise_Energy 1300 38079.3402245
+Case: lambdaId, Lamda =  143 0.0274900398406
+Number of non-zero groups =  3
+num_iter, Noise_Energy 1800 37204.3646
+Case: lambdaId, Lamda =  154 0.0293713163065
+Number of non-zero groups =  4
+num_iter, Noise_Energy 1900 35390.3101041
+Case: lambdaId, Lamda =  167 0.0319558247239
+Number of non-zero groups =  5
+num_iter, Noise_Energy 1700 33917.9820329
+Case: lambdaId, Lamda =  177 0.0342758884219
+Number of non-zero groups =  6
+num_iter, Noise_Energy 1400 31475.7915667
+Case: lambdaId, Lamda =  185 0.0363894523327
+Number of non-zero groups =  7
+num_iter, Noise_Energy 1500 30403.2401322
+Case: lambdaId, Lamda =  212 0.0459528688525
+Number of non-zero groups =  8
+num_iter, Noise_Energy 3100 30074.0348366
+Case: lambdaId, Lamda =  226 0.0532028469751
+Number of non-zero groups =  9
+num_iter, Noise_Energy 2000 29890.7638174
+Case: lambdaId, Lamda =  229 0.0550644567219
+Number of non-zero groups =  10
+num_iter, Noise_Energy 1800 29091.1953997
+Case: lambdaId, Lamda =  255 0.0790308370044
+Number of non-zero groups =  12
+num_iter, Noise_Energy 2800 28054.3088352
+Case: lambdaId, Lamda =  257 0.0817684594348
+Number of non-zero groups =  11
+num_iter, Noise_Energy 4400 28546.4733876
+Case: lambdaId, Lamda =  259 0.0847025495751
+Number of non-zero groups =  12
+num_iter, Noise_Energy 4600 28139.3653293
+Case: lambdaId, Lamda =  261 0.0878550440744
+Number of non-zero groups =  13
+num_iter, Noise_Energy 2800 28064.9618846
+Case: lambdaId, Lamda =  268 0.101013513514
+Number of non-zero groups =  14
+num_iter, Noise_Energy 7900 27830.3068612
+Case: lambdaId, Lamda =  269 0.103222094361
+Number of non-zero groups =  15
+num_iter, Noise_Energy 2900 27638.6703386
+Case: lambdaId, Lamda =  272 0.110467980296
+Number of non-zero groups =  17
+num_iter, Noise_Energy 3000 26596.7028197
+Case: lambdaId, Lamda =  283 0.148756218905
+Number of non-zero groups =  19
+num_iter, Noise_Energy 6200 26450.9284059
+Case: lambdaId, Lamda =  284 0.153595890411
+Number of non-zero groups =  20
+num_iter, Noise_Energy 3600 26355.8319117
+Case: lambdaId, Lamda =  286 0.164285714286
+Number of non-zero groups =  23
+num_iter, Noise_Energy 4800 25043.7095983
+Case: lambdaId, Lamda =  288 0.17657480315
+Number of non-zero groups =  23
+num_iter, Noise_Energy 4500 25167.549744
+Case: lambdaId, Lamda =  289 0.183435582822
+Number of non-zero groups =  24
+num_iter, Noise_Energy 4400 24317.5837881
+Case: lambdaId, Lamda =  290 0.19085106383
+Number of non-zero groups =  25
+num_iter, Noise_Energy 4700 23808.4754087
+Case: lambdaId, Lamda =  291 0.19889135255
+Number of non-zero groups =  26
+num_iter, Noise_Energy 5600 23555.6858002
+Case: lambdaId, Lamda =  292 0.207638888889
+Number of non-zero groups =  28
+num_iter, Noise_Energy 8600 23321.0265723
+Case: lambdaId, Lamda =  294 0.227664974619
+Number of non-zero groups =  35
+num_iter, Noise_Energy 6100 21828.7465044
+Case: lambdaId, Lamda =  295 0.2392
+Number of non-zero groups =  34
+num_iter, Noise_Energy 4200 20960.8902791
+Case: lambdaId, Lamda =  296 0.251966292135
+Number of non-zero groups =  36
+num_iter, Noise_Energy 4900 20619.8428296
+Case: lambdaId, Lamda =  297 0.266172106825
+Number of non-zero groups =  40
+num_iter, Noise_Energy 5000 20285.283798
+Case: lambdaId, Lamda =  298 0.282075471698
+Number of non-zero groups =  45
+num_iter, Noise_Energy 4000 19613.9723456
+Case: lambdaId, Lamda =  299 0.3
+Number of non-zero groups =  47
+num_iter, Noise_Energy 5400 19379.4724764
+
+Process finished with exit code 0

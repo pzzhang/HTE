@@ -1,0 +1,174 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/bingad/exp11.py"
+Bregman iteration step =  13
+Number of non-zero groups =  2
+num_iter, Noise_Energy 600 19.2258083571
+Bregman iteration step =  27
+Number of non-zero groups =  3
+num_iter, Noise_Energy 600 9.30583876901
+Bregman iteration step =  28
+Number of non-zero groups =  1
+num_iter, Noise_Energy 600 9.31368621711
+Bregman iteration step =  142
+Number of non-zero groups =  2
+num_iter, Noise_Energy 600 8.63726110621
+Bregman iteration step =  189
+Number of non-zero groups =  3
+num_iter, Noise_Energy 600 8.3722266683
+Bregman iteration step =  217
+Number of non-zero groups =  5
+num_iter, Noise_Energy 600 8.09750621976
+Bregman iteration step =  263
+Number of non-zero groups =  6
+num_iter, Noise_Energy 1800 8.09648803566
+Bregman iteration step =  306
+Number of non-zero groups =  7
+num_iter, Noise_Energy 1600 7.87566585253
+Bregman iteration step =  327
+Number of non-zero groups =  8
+num_iter, Noise_Energy 1500 7.79469235594
+Bregman iteration step =  330
+Number of non-zero groups =  9
+num_iter, Noise_Energy 1100 7.77397347426
+Bregman iteration step =  333
+Number of non-zero groups =  10
+num_iter, Noise_Energy 1000 7.54501430636
+Bregman iteration step =  362
+Number of non-zero groups =  12
+num_iter, Noise_Energy 1900 7.18091868623
+Bregman iteration step =  363
+Number of non-zero groups =  10
+num_iter, Noise_Energy 600 7.1890686526
+Bregman iteration step =  415
+Number of non-zero groups =  11
+num_iter, Noise_Energy 1300 6.05629317963
+Bregman iteration step =  416
+Number of non-zero groups =  12
+num_iter, Noise_Energy 1500 6.04435151089
+Bregman iteration step =  465
+Number of non-zero groups =  13
+num_iter, Noise_Energy 700 6.01927768499
+Bregman iteration step =  467
+Number of non-zero groups =  14
+num_iter, Noise_Energy 1200 5.87824877249
+Bregman iteration step =  487
+Number of non-zero groups =  14
+num_iter, Noise_Energy 800 5.81989804874
+Bregman iteration step =  518
+Number of non-zero groups =  15
+num_iter, Noise_Energy 2000 5.81953439092
+Bregman iteration step =  560
+Number of non-zero groups =  16
+num_iter, Noise_Energy 1200 5.78336221605
+Bregman iteration step =  563
+Number of non-zero groups =  17
+num_iter, Noise_Energy 1900 5.75460401076
+Bregman iteration step =  564
+Number of non-zero groups =  16
+num_iter, Noise_Energy 1000 5.75464297269
+Bregman iteration step =  569
+Number of non-zero groups =  17
+num_iter, Noise_Energy 1500 5.711496371
+Bregman iteration step =  570
+Number of non-zero groups =  16
+num_iter, Noise_Energy 1100 5.72636642978
+Bregman iteration step =  707
+Number of non-zero groups =  18
+num_iter, Noise_Energy 900 5.63618615577
+Bregman iteration step =  710
+Number of non-zero groups =  19
+num_iter, Noise_Energy 1400 5.34830794081
+Bregman iteration step =  767
+Number of non-zero groups =  20
+num_iter, Noise_Energy 1900 5.24096841625
+Bregman iteration step =  768
+Number of non-zero groups =  19
+num_iter, Noise_Energy 1500 5.24126204708
+Bregman iteration step =  786
+Number of non-zero groups =  20
+num_iter, Noise_Energy 2400 5.24061403488
+Bregman iteration step =  787
+Number of non-zero groups =  19
+num_iter, Noise_Energy 2300 5.24061610341
+Bregman iteration step =  870
+Number of non-zero groups =  21
+num_iter, Noise_Energy 1700 4.93470600914
+Bregman iteration step =  881
+Number of non-zero groups =  20
+num_iter, Noise_Energy 1500 4.90675481001
+Bregman iteration step =  906
+Number of non-zero groups =  21
+num_iter, Noise_Energy 1300 4.87320095791
+Bregman iteration step =  909
+Number of non-zero groups =  22
+num_iter, Noise_Energy 1900 4.75287286342
+Bregman iteration step =  951
+Number of non-zero groups =  23
+num_iter, Noise_Energy 1400 4.67901680482
+Bregman iteration step =  997
+Number of non-zero groups =  24
+num_iter, Noise_Energy 900 4.66433182422
+Bregman iteration step =  998
+Number of non-zero groups =  25
+num_iter, Noise_Energy 1400 4.64487327555
+Bregman iteration step =  1032
+Number of non-zero groups =  27
+num_iter, Noise_Energy 1900 4.61989259522
+Bregman iteration step =  1129
+Number of non-zero groups =  28
+num_iter, Noise_Energy 1400 4.59855560427
+Bregman iteration step =  1195
+Number of non-zero groups =  28
+num_iter, Noise_Energy 1400 4.55205626538
+Bregman iteration step =  1220
+Number of non-zero groups =  29
+num_iter, Noise_Energy 1300 4.54532876851
+Bregman iteration step =  1411
+Number of non-zero groups =  31
+num_iter, Noise_Energy 2200 4.47889869494
+Bregman iteration step =  1425
+Number of non-zero groups =  32
+num_iter, Noise_Energy 1500 4.47662630217
+Bregman iteration step =  1477
+Number of non-zero groups =  34
+num_iter, Noise_Energy 1900 4.44179303937
+Bregman iteration step =  1478
+Number of non-zero groups =  32
+num_iter, Noise_Energy 1900 4.44613029701
+Bregman iteration step =  1522
+Number of non-zero groups =  33
+num_iter, Noise_Energy 1100 4.43475174577
+Bregman iteration step =  1536
+Number of non-zero groups =  32
+num_iter, Noise_Energy 3300 4.41932812194
+Bregman iteration step =  1597
+Number of non-zero groups =  33
+num_iter, Noise_Energy 1900 4.40139859278
+Bregman iteration step =  1600
+Number of non-zero groups =  34
+num_iter, Noise_Energy 1600 4.39978773447
+Bregman iteration step =  1639
+Number of non-zero groups =  35
+num_iter, Noise_Energy 1800 4.2860529757
+Bregman iteration step =  1662
+Number of non-zero groups =  35
+num_iter, Noise_Energy 1900 4.28410015656
+Bregman iteration step =  1676
+Number of non-zero groups =  35
+num_iter, Noise_Energy 2300 4.26888237905
+Bregman iteration step =  1697
+Number of non-zero groups =  35
+num_iter, Noise_Energy 2100 4.2499873459
+Bregman iteration step =  1748
+Number of non-zero groups =  36
+num_iter, Noise_Energy 2300 4.21962214084
+Bregman iteration step =  1749
+Number of non-zero groups =  35
+num_iter, Noise_Energy 2100 4.21962459302
+Bregman iteration step =  1789
+Number of non-zero groups =  35
+num_iter, Noise_Energy 1700 4.20981260574
+Bregman iteration step =  1800
+Number of non-zero groups =  34
+num_iter, Noise_Energy 2000 4.17151596947
+
+Process finished with exit code 0

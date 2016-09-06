@@ -1,0 +1,60 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/bingads_multiplemetrics/exp11single.py"
+Initial Noise_Energy 128.069736245
+Case: lambdaId, Lamda =  7 0.000162852489929
+Number of non-zero groups =  2
+num_iter, Noise_Energy 3100 24.2620810814
+Case: lambdaId, Lamda =  224 0.000364054416555
+Number of non-zero groups =  3
+num_iter, Noise_Energy 4500 23.2186583031
+Case: lambdaId, Lamda =  228 0.000372538584353
+Number of non-zero groups =  4
+num_iter, Noise_Energy 1700 17.2660111848
+Case: lambdaId, Lamda =  333 0.000959526729673
+Number of non-zero groups =  5
+num_iter, Noise_Energy 3400 16.6680432511
+Case: lambdaId, Lamda =  359 0.0015734058914
+Number of non-zero groups =  6
+num_iter, Noise_Energy 5500 15.0334755611
+Case: lambdaId, Lamda =  366 0.00190081463484
+Number of non-zero groups =  7
+num_iter, Noise_Energy 6500 2.25442057114
+Case: lambdaId, Lamda =  373 0.00240028875654
+Number of non-zero groups =  9
+num_iter, Noise_Energy 2900 0.282324477483
+Case: lambdaId, Lamda =  395 0.0137823834197
+Number of non-zero groups =  10
+num_iter, Noise_Energy 9999 0.0939499851642
+Case: lambdaId, Lamda =  396 0.0175693527081
+Number of non-zero groups =  12
+num_iter, Noise_Energy 9999 0.023360319543
+Case: lambdaId, Lamda =  398 0.0390029325513
+Number of non-zero groups =  14
+num_iter, Noise_Energy 9999 1.78631874827e-30
+
+Process finished with exit code 0
+
+Initial Noise_Energy 128.069736245
+Case: lambdaId, Lamda =  0 0.002
+Number of non-zero groups =  7
+num_iter, Noise_Energy 6800 2.25442057114
+Case: lambdaId, Lamda =  67 0.00237835294118
+Number of non-zero groups =  8
+num_iter, Noise_Energy 4500 1.9070894835
+Case: lambdaId, Lamda =  68 0.00238508730533
+Number of non-zero groups =  9
+num_iter, Noise_Energy 3100 0.282324477483
+Case: lambdaId, Lamda =  359 0.0135495978552
+Number of non-zero groups =  10
+num_iter, Noise_Energy 9999 0.0939499851642
+Case: lambdaId, Lamda =  378 0.0195135135135
+Number of non-zero groups =  11
+num_iter, Noise_Energy 9999 0.0469710768408
+Case: lambdaId, Lamda =  382 0.0215063829787
+Number of non-zero groups =  12
+num_iter, Noise_Energy 9999 0.023360319543
+Case: lambdaId, Lamda =  395 0.0321910828025
+Number of non-zero groups =  13
+num_iter, Noise_Energy 9999 0.00176644408968
+Case: lambdaId, Lamda =  397 0.0348551724138
+Number of non-zero groups =  14
+num_iter, Noise_Energy 9999 1.78631874827e-30

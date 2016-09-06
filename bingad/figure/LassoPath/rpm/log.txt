@@ -1,0 +1,560 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/bingad/exp11rpm.py"
+Initial Noise_Energy 0.398851735368
+Initial Constant Term 0.0100318431685
+Case: lambdaId, Lamda =  44 11.2047177759
+Number of non-zero groups =  2
+num_iter, Noise_Energy 900 0.396306230775
+Case: lambdaId, Lamda =  192 18.8385269122
+Number of non-zero groups =  3
+num_iter, Noise_Energy 1900 0.391275352273
+Case: lambdaId, Lamda =  242 24.4710211592
+Number of non-zero groups =  4
+num_iter, Noise_Energy 2000 0.388755435166
+Case: lambdaId, Lamda =  256 26.7068273092
+Number of non-zero groups =  5
+num_iter, Noise_Energy 2200 0.388453647774
+Case: lambdaId, Lamda =  264 28.1779661017
+Number of non-zero groups =  6
+num_iter, Noise_Energy 2200 0.3882348262
+Case: lambdaId, Lamda =  271 29.6048970506
+Number of non-zero groups =  7
+num_iter, Noise_Energy 3300 0.385676513363
+Case: lambdaId, Lamda =  284 32.6781326781
+Number of non-zero groups =  9
+num_iter, Noise_Energy 2500 0.384459879156
+Case: lambdaId, Lamda =  296 36.1413043478
+Number of non-zero groups =  10
+num_iter, Noise_Energy 5700 0.381814378614
+Case: lambdaId, Lamda =  298 36.7911479945
+Number of non-zero groups =  11
+num_iter, Noise_Energy 1700 0.381731451497
+Case: lambdaId, Lamda =  305 39.2619926199
+Number of non-zero groups =  12
+num_iter, Noise_Energy 2000 0.379748889134
+Case: lambdaId, Lamda =  309 40.828856485
+Number of non-zero groups =  11
+num_iter, Noise_Energy 2100 0.379846754191
+Case: lambdaId, Lamda =  322 46.9135802469
+Number of non-zero groups =  12
+num_iter, Noise_Energy 2400 0.378007625631
+Case: lambdaId, Lamda =  326 49.168207024
+Number of non-zero groups =  11
+num_iter, Noise_Energy 2400 0.378473651563
+Case: lambdaId, Lamda =  332 52.9880478088
+Number of non-zero groups =  12
+num_iter, Noise_Energy 3200 0.376274818804
+Case: lambdaId, Lamda =  349 67.9438058748
+Number of non-zero groups =  13
+num_iter, Noise_Energy 4400 0.372888750815
+Case: lambdaId, Lamda =  351 70.2774108322
+Number of non-zero groups =  16
+num_iter, Noise_Energy 3400 0.368091961253
+Case: lambdaId, Lamda =  352 71.5053763441
+Number of non-zero groups =  17
+num_iter, Noise_Energy 4400 0.365455503057
+Case: lambdaId, Lamda =  355 75.4609929078
+Number of non-zero groups =  19
+num_iter, Noise_Energy 12300 0.364611325501
+Case: lambdaId, Lamda =  357 78.3505154639
+Number of non-zero groups =  22
+num_iter, Noise_Energy 5700 0.35601721566
+Case: lambdaId, Lamda =  359 81.4701378254
+Number of non-zero groups =  22
+num_iter, Noise_Energy 4200 0.35601721566
+Case: lambdaId, Lamda =  360 83.125
+Number of non-zero groups =  22
+num_iter, Noise_Energy 4200 0.356257931122
+Case: lambdaId, Lamda =  361 84.8484848485
+Number of non-zero groups =  24
+num_iter, Noise_Energy 4400 0.352664367518
+Case: lambdaId, Lamda =  366 94.6619217082
+Number of non-zero groups =  24
+num_iter, Noise_Energy 9100 0.352760449924
+Case: lambdaId, Lamda =  367 96.9034608379
+Number of non-zero groups =  25
+num_iter, Noise_Energy 4500 0.351156176279
+Case: lambdaId, Lamda =  368 99.2537313433
+Number of non-zero groups =  26
+num_iter, Noise_Energy 5700 0.349777155147
+Case: lambdaId, Lamda =  369 101.7208413
+Number of non-zero groups =  29
+num_iter, Noise_Energy 5700 0.345895824976
+Case: lambdaId, Lamda =  370 104.31372549
+Number of non-zero groups =  34
+num_iter, Noise_Energy 7500 0.338669595778
+Case: lambdaId, Lamda =  371 107.042253521
+Number of non-zero groups =  37
+num_iter, Noise_Energy 5000 0.334977013255
+Case: lambdaId, Lamda =  372 109.917355372
+Number of non-zero groups =  38
+num_iter, Noise_Energy 6500 0.334734346361
+Case: lambdaId, Lamda =  373 112.951167728
+Number of non-zero groups =  39
+num_iter, Noise_Energy 6600 0.332284455972
+Case: lambdaId, Lamda =  374 116.15720524
+Number of non-zero groups =  41
+num_iter, Noise_Energy 5600 0.330880294472
+Case: lambdaId, Lamda =  375 119.550561798
+Number of non-zero groups =  41
+num_iter, Noise_Energy 6400 0.330887861531
+Case: lambdaId, Lamda =  376 123.148148148
+Number of non-zero groups =  42
+num_iter, Noise_Energy 17900 0.329226217409
+Case: lambdaId, Lamda =  377 126.968973747
+Number of non-zero groups =  42
+num_iter, Noise_Energy 8200 0.328137820693
+Case: lambdaId, Lamda =  378 131.034482759
+Number of non-zero groups =  47
+num_iter, Noise_Energy 12900 0.327885694381
+Case: lambdaId, Lamda =  379 135.368956743
+Number of non-zero groups =  54
+num_iter, Noise_Energy 8000 0.321323099262
+Case: lambdaId, Lamda =  380 140.0
+Number of non-zero groups =  58
+num_iter, Noise_Energy 5400 0.309441893853
+Case: lambdaId, Lamda =  381 144.959128065
+Number of non-zero groups =  59
+num_iter, Noise_Energy 5200 0.310555586626
+Case: lambdaId, Lamda =  382 150.282485876
+Number of non-zero groups =  64
+num_iter, Noise_Energy 5600 0.305397087601
+Case: lambdaId, Lamda =  383 156.011730205
+Number of non-zero groups =  62
+num_iter, Noise_Energy 5700 0.306383920503
+Case: lambdaId, Lamda =  384 162.195121951
+Number of non-zero groups =  62
+num_iter, Noise_Energy 6100 0.302104591826
+Case: lambdaId, Lamda =  385 168.888888889
+Number of non-zero groups =  67
+num_iter, Noise_Energy 12000 0.300123925413
+Case: lambdaId, Lamda =  386 176.158940397
+Number of non-zero groups =  67
+num_iter, Noise_Energy 9700 0.300969133192
+Case: lambdaId, Lamda =  387 184.083044983
+Number of non-zero groups =  76
+num_iter, Noise_Energy 8900 0.296178745833
+Case: lambdaId, Lamda =  388 192.753623188
+Number of non-zero groups =  79
+num_iter, Noise_Energy 7600 0.295788871348
+Case: lambdaId, Lamda =  389 202.281368821
+Number of non-zero groups =  85
+num_iter, Noise_Energy 6800 0.2922061038
+Case: lambdaId, Lamda =  390 212.8
+Number of non-zero groups =  89
+num_iter, Noise_Energy 5400 0.28957167864
+Case: lambdaId, Lamda =  391 224.47257384
+Number of non-zero groups =  90
+num_iter, Noise_Energy 4800 0.289900602098
+Case: lambdaId, Lamda =  392 237.5
+Number of non-zero groups =  99
+num_iter, Noise_Energy 5900 0.287051911127
+Case: lambdaId, Lamda =  393 252.132701422
+Number of non-zero groups =  102
+num_iter, Noise_Energy 4100 0.28704443331
+Case: lambdaId, Lamda =  394 268.686868687
+Number of non-zero groups =  100
+num_iter, Noise_Energy 6200 0.286504099574
+Case: lambdaId, Lamda =  395 287.567567568
+Number of non-zero groups =  107
+num_iter, Noise_Energy 6300 0.282285053995
+Case: lambdaId, Lamda =  396 309.302325581
+Number of non-zero groups =  112
+num_iter, Noise_Energy 9700 0.281528748917
+Case: lambdaId, Lamda =  397 334.591194969
+Number of non-zero groups =  108
+num_iter, Noise_Energy 6400 0.281458665815
+Case: lambdaId, Lamda =  398 364.383561644
+Number of non-zero groups =  117
+num_iter, Noise_Energy 5100 0.278685146693
+Case: lambdaId, Lamda =  399 400.0
+Number of non-zero groups =  117
+num_iter, Noise_Energy 9200 0.275322268037
+Bregman iteration step =  11
+Number of non-zero groups =  2
+num_iter, Noise_Energy 600 0.396306230775
+Bregman iteration step =  18
+Number of non-zero groups =  3
+num_iter, Noise_Energy 600 0.391275352273
+Bregman iteration step =  24
+Number of non-zero groups =  4
+num_iter, Noise_Energy 600 0.388755435166
+Bregman iteration step =  26
+Number of non-zero groups =  5
+num_iter, Noise_Energy 700 0.388453647774
+Bregman iteration step =  28
+Number of non-zero groups =  6
+num_iter, Noise_Energy 700 0.3882348262
+Bregman iteration step =  29
+Number of non-zero groups =  7
+num_iter, Noise_Energy 700 0.385676513363
+Bregman iteration step =  30
+Number of non-zero groups =  6
+num_iter, Noise_Energy 700 0.385798329473
+Bregman iteration step =  32
+Number of non-zero groups =  8
+num_iter, Noise_Energy 700 0.384494792395
+Bregman iteration step =  35
+Number of non-zero groups =  9
+num_iter, Noise_Energy 700 0.3818251852
+Bregman iteration step =  36
+Number of non-zero groups =  10
+num_iter, Noise_Energy 700 0.381733857231
+Bregman iteration step =  38
+Number of non-zero groups =  12
+num_iter, Noise_Energy 600 0.379748889134
+Bregman iteration step =  39
+Number of non-zero groups =  11
+num_iter, Noise_Energy 700 0.379846754191
+Bregman iteration step =  46
+Number of non-zero groups =  11
+num_iter, Noise_Energy 700 0.378473651563
+Bregman iteration step =  52
+Number of non-zero groups =  12
+num_iter, Noise_Energy 600 0.376274818804
+Bregman iteration step =  63
+Number of non-zero groups =  12
+num_iter, Noise_Energy 600 0.375632784627
+Bregman iteration step =  67
+Number of non-zero groups =  13
+num_iter, Noise_Energy 600 0.372208128535
+Bregman iteration step =  69
+Number of non-zero groups =  15
+num_iter, Noise_Energy 800 0.368329920655
+Bregman iteration step =  71
+Number of non-zero groups =  15
+num_iter, Noise_Energy 600 0.366456655991
+Bregman iteration step =  75
+Number of non-zero groups =  17
+num_iter, Noise_Energy 800 0.365607562629
+Bregman iteration step =  77
+Number of non-zero groups =  19
+num_iter, Noise_Energy 1200 0.356941566064
+Bregman iteration step =  81
+Number of non-zero groups =  19
+num_iter, Noise_Energy 700 0.356940513167
+Bregman iteration step =  83
+Number of non-zero groups =  21
+num_iter, Noise_Energy 800 0.354967847295
+Bregman iteration step =  84
+Number of non-zero groups =  21
+num_iter, Noise_Energy 800 0.352941624827
+Bregman iteration step =  92
+Number of non-zero groups =  23
+num_iter, Noise_Energy 600 0.352509472752
+Bregman iteration step =  94
+Number of non-zero groups =  23
+num_iter, Noise_Energy 800 0.350924502976
+Bregman iteration step =  97
+Number of non-zero groups =  24
+num_iter, Noise_Energy 600 0.349572874051
+Bregman iteration step =  100
+Number of non-zero groups =  25
+num_iter, Noise_Energy 800 0.347052044213
+Bregman iteration step =  102
+Number of non-zero groups =  25
+num_iter, Noise_Energy 800 0.346154380039
+Bregman iteration step =  103
+Number of non-zero groups =  27
+num_iter, Noise_Energy 1400 0.34059729362
+Bregman iteration step =  104
+Number of non-zero groups =  29
+num_iter, Noise_Energy 2000 0.339950008558
+Bregman iteration step =  105
+Number of non-zero groups =  31
+num_iter, Noise_Energy 1000 0.339538039203
+Bregman iteration step =  106
+Number of non-zero groups =  32
+num_iter, Noise_Energy 1200 0.33585387241
+Bregman iteration step =  110
+Number of non-zero groups =  33
+num_iter, Noise_Energy 1100 0.334689419137
+Bregman iteration step =  114
+Number of non-zero groups =  36
+num_iter, Noise_Energy 800 0.334051730419
+Bregman iteration step =  115
+Number of non-zero groups =  37
+num_iter, Noise_Energy 1100 0.333452702495
+Bregman iteration step =  119
+Number of non-zero groups =  36
+num_iter, Noise_Energy 1000 0.332208471432
+Bregman iteration step =  122
+Number of non-zero groups =  36
+num_iter, Noise_Energy 900 0.33113384049
+Bregman iteration step =  123
+Number of non-zero groups =  39
+num_iter, Noise_Energy 1400 0.32890529505
+Bregman iteration step =  124
+Number of non-zero groups =  39
+num_iter, Noise_Energy 1100 0.327818351551
+Bregman iteration step =  129
+Number of non-zero groups =  40
+num_iter, Noise_Energy 1000 0.326791977827
+Bregman iteration step =  132
+Number of non-zero groups =  40
+num_iter, Noise_Energy 1500 0.325515380126
+Bregman iteration step =  133
+Number of non-zero groups =  39
+num_iter, Noise_Energy 1300 0.324319906952
+Bregman iteration step =  134
+Number of non-zero groups =  40
+num_iter, Noise_Energy 1800 0.322213366569
+Bregman iteration step =  135
+Number of non-zero groups =  41
+num_iter, Noise_Energy 2000 0.320257107583
+Bregman iteration step =  136
+Number of non-zero groups =  42
+num_iter, Noise_Energy 1300 0.317993482312
+Bregman iteration step =  137
+Number of non-zero groups =  43
+num_iter, Noise_Energy 2100 0.316305126421
+Bregman iteration step =  140
+Number of non-zero groups =  42
+num_iter, Noise_Energy 1900 0.313204150532
+Bregman iteration step =  143
+Number of non-zero groups =  43
+num_iter, Noise_Energy 2500 0.312368247643
+Bregman iteration step =  151
+Number of non-zero groups =  45
+num_iter, Noise_Energy 1600 0.310272284817
+Bregman iteration step =  156
+Number of non-zero groups =  48
+num_iter, Noise_Energy 1500 0.309833998496
+Bregman iteration step =  157
+Number of non-zero groups =  50
+num_iter, Noise_Energy 2500 0.309674075555
+Bregman iteration step =  159
+Number of non-zero groups =  50
+num_iter, Noise_Energy 3400 0.309064289573
+Bregman iteration step =  160
+Number of non-zero groups =  51
+num_iter, Noise_Energy 3000 0.304444918049
+Bregman iteration step =  162
+Number of non-zero groups =  54
+num_iter, Noise_Energy 2900 0.302165438148
+Bregman iteration step =  164
+Number of non-zero groups =  54
+num_iter, Noise_Energy 2600 0.300177722682
+Bregman iteration step =  169
+Number of non-zero groups =  55
+num_iter, Noise_Energy 2300 0.29965407108
+Bregman iteration step =  177
+Number of non-zero groups =  55
+num_iter, Noise_Energy 2400 0.296463697533
+Bregman iteration step =  185
+Number of non-zero groups =  56
+num_iter, Noise_Energy 2100 0.295689526185
+Bregman iteration step =  186
+Number of non-zero groups =  57
+num_iter, Noise_Energy 1900 0.294755362748
+Bregman iteration step =  187
+Number of non-zero groups =  57
+num_iter, Noise_Energy 2100 0.29468792013
+Bregman iteration step =  188
+Number of non-zero groups =  56
+num_iter, Noise_Energy 1700 0.294554769513
+Bregman iteration step =  190
+Number of non-zero groups =  58
+num_iter, Noise_Energy 2300 0.294260044471
+Bregman iteration step =  192
+Number of non-zero groups =  58
+num_iter, Noise_Energy 1600 0.294152577632
+Bregman iteration step =  197
+Number of non-zero groups =  59
+num_iter, Noise_Energy 1900 0.293422715097
+Bregman iteration step =  198
+Number of non-zero groups =  60
+num_iter, Noise_Energy 1900 0.292913953226
+Bregman iteration step =  200
+Number of non-zero groups =  59
+num_iter, Noise_Energy 2000 0.292712602122
+Bregman iteration step =  220
+Number of non-zero groups =  68
+num_iter, Noise_Energy 2100 0.290769140466
+Bregman iteration step =  225
+Number of non-zero groups =  69
+num_iter, Noise_Energy 3000 0.289324834732
+Bregman iteration step =  227
+Number of non-zero groups =  68
+num_iter, Noise_Energy 2100 0.289247343567
+Bregman iteration step =  228
+Number of non-zero groups =  69
+num_iter, Noise_Energy 2800 0.28924387787
+Bregman iteration step =  234
+Number of non-zero groups =  71
+num_iter, Noise_Energy 1600 0.289226453771
+Bregman iteration step =  238
+Number of non-zero groups =  72
+num_iter, Noise_Energy 2500 0.288998875614
+Bregman iteration step =  245
+Number of non-zero groups =  75
+num_iter, Noise_Energy 2100 0.288721795811
+Bregman iteration step =  254
+Number of non-zero groups =  78
+num_iter, Noise_Energy 3000 0.286331814297
+Bregman iteration step =  256
+Number of non-zero groups =  76
+num_iter, Noise_Energy 2500 0.285893083246
+Bregman iteration step =  258
+Number of non-zero groups =  79
+num_iter, Noise_Energy 2800 0.285785625016
+Bregman iteration step =  262
+Number of non-zero groups =  84
+num_iter, Noise_Energy 2800 0.285142016584
+Bregman iteration step =  264
+Number of non-zero groups =  83
+num_iter, Noise_Energy 3300 0.284948026942
+Bregman iteration step =  265
+Number of non-zero groups =  84
+num_iter, Noise_Energy 3500 0.284763315697
+Bregman iteration step =  266
+Number of non-zero groups =  82
+num_iter, Noise_Energy 3100 0.284780739481
+Bregman iteration step =  273
+Number of non-zero groups =  83
+num_iter, Noise_Energy 2800 0.284481567357
+Bregman iteration step =  274
+Number of non-zero groups =  83
+num_iter, Noise_Energy 2600 0.2841269014
+Bregman iteration step =  275
+Number of non-zero groups =  82
+num_iter, Noise_Energy 3000 0.283700571382
+Bregman iteration step =  276
+Number of non-zero groups =  81
+num_iter, Noise_Energy 5700 0.283270289967
+Bregman iteration step =  277
+Number of non-zero groups =  79
+num_iter, Noise_Energy 3600 0.283277728769
+Bregman iteration step =  281
+Number of non-zero groups =  81
+num_iter, Noise_Energy 2500 0.283087837508
+Bregman iteration step =  282
+Number of non-zero groups =  80
+num_iter, Noise_Energy 2900 0.282909603284
+Bregman iteration step =  283
+Number of non-zero groups =  80
+num_iter, Noise_Energy 3200 0.282909530199
+Bregman iteration step =  295
+Number of non-zero groups =  84
+num_iter, Noise_Energy 2000 0.282699504278
+Bregman iteration step =  301
+Number of non-zero groups =  86
+num_iter, Noise_Energy 2700 0.282569193546
+Bregman iteration step =  305
+Number of non-zero groups =  86
+num_iter, Noise_Energy 4900 0.282483072746
+Bregman iteration step =  306
+Number of non-zero groups =  85
+num_iter, Noise_Energy 3800 0.282483072777
+Bregman iteration step =  309
+Number of non-zero groups =  86
+num_iter, Noise_Energy 2800 0.28246568216
+Bregman iteration step =  314
+Number of non-zero groups =  86
+num_iter, Noise_Energy 3900 0.282143280537
+Bregman iteration step =  316
+Number of non-zero groups =  88
+num_iter, Noise_Energy 4100 0.28195371247
+Bregman iteration step =  318
+Number of non-zero groups =  88
+num_iter, Noise_Energy 3100 0.281925846133
+Bregman iteration step =  329
+Number of non-zero groups =  93
+num_iter, Noise_Energy 2700 0.28163287336
+Bregman iteration step =  332
+Number of non-zero groups =  93
+num_iter, Noise_Energy 5200 0.281232310805
+Bregman iteration step =  333
+Number of non-zero groups =  90
+num_iter, Noise_Energy 4000 0.281237588477
+Bregman iteration step =  356
+Number of non-zero groups =  94
+num_iter, Noise_Energy 4300 0.279528522133
+Bregman iteration step =  367
+Number of non-zero groups =  96
+num_iter, Noise_Energy 5500 0.278822887286
+Bregman iteration step =  370
+Number of non-zero groups =  92
+num_iter, Noise_Energy 3200 0.278342947703
+Bregman iteration step =  372
+Number of non-zero groups =  93
+num_iter, Noise_Energy 4100 0.27807292399
+Bregman iteration step =  373
+Number of non-zero groups =  93
+num_iter, Noise_Energy 4100 0.278073415331
+Bregman iteration step =  374
+Number of non-zero groups =  95
+num_iter, Noise_Energy 3600 0.278043626884
+Bregman iteration step =  375
+Number of non-zero groups =  98
+num_iter, Noise_Energy 6300 0.276802635635
+Bregman iteration step =  376
+Number of non-zero groups =  97
+num_iter, Noise_Energy 7000 0.276683423585
+Bregman iteration step =  377
+Number of non-zero groups =  95
+num_iter, Noise_Energy 3200 0.276683427548
+Bregman iteration step =  378
+Number of non-zero groups =  97
+num_iter, Noise_Energy 4500 0.276606675315
+Bregman iteration step =  379
+Number of non-zero groups =  96
+num_iter, Noise_Energy 4500 0.276606679358
+Bregman iteration step =  389
+Number of non-zero groups =  97
+num_iter, Noise_Energy 3100 0.276437098474
+Bregman iteration step =  401
+Number of non-zero groups =  94
+num_iter, Noise_Energy 3200 0.276356959021
+Bregman iteration step =  402
+Number of non-zero groups =  92
+num_iter, Noise_Energy 3200 0.276356962573
+Bregman iteration step =  404
+Number of non-zero groups =  94
+num_iter, Noise_Energy 3700 0.276298074126
+Bregman iteration step =  406
+Number of non-zero groups =  92
+num_iter, Noise_Energy 3900 0.275484334995
+Bregman iteration step =  407
+Number of non-zero groups =  90
+num_iter, Noise_Energy 3900 0.27544214043
+Bregman iteration step =  408
+Number of non-zero groups =  90
+num_iter, Noise_Energy 3800 0.275329603644
+Bregman iteration step =  412
+Number of non-zero groups =  88
+num_iter, Noise_Energy 4100 0.274899853049
+Bregman iteration step =  414
+Number of non-zero groups =  89
+num_iter, Noise_Energy 4100 0.27482533345
+Bregman iteration step =  419
+Number of non-zero groups =  90
+num_iter, Noise_Energy 2500 0.27480505165
+Bregman iteration step =  420
+Number of non-zero groups =  91
+num_iter, Noise_Energy 4600 0.274787511225
+Bregman iteration step =  445
+Number of non-zero groups =  93
+num_iter, Noise_Energy 3400 0.273302671653
+Bregman iteration step =  446
+Number of non-zero groups =  93
+num_iter, Noise_Energy 4300 0.273302111698
+Bregman iteration step =  450
+Number of non-zero groups =  93
+num_iter, Noise_Energy 5000 0.272785718819
+Bregman iteration step =  465
+Number of non-zero groups =  99
+num_iter, Noise_Energy 4400 0.271170932742
+Bregman iteration step =  474
+Number of non-zero groups =  99
+num_iter, Noise_Energy 4600 0.271162390909
+Bregman iteration step =  484
+Number of non-zero groups =  100
+num_iter, Noise_Energy 5500 0.270948261071
+Bregman iteration step =  489
+Number of non-zero groups =  101
+num_iter, Noise_Energy 5100 0.270723507084
+Bregman iteration step =  499
+Number of non-zero groups =  102
+num_iter, Noise_Energy 5300 0.270657006106
+
+Process finished with exit code 0

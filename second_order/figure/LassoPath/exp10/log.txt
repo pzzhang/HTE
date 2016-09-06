@@ -1,0 +1,49 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/second_order/exp10.py"
+Exact Noise Energy: 0.00491817419424
+Case: lambdaId, Lamda =  0 20.0
+Number of non-zero groups =  2
+num_iter, Noise_Energy 2400 0.0131287148565
+Case: lambdaId, Lamda =  12 28.0575539568
+Number of non-zero groups =  3
+num_iter, Noise_Energy 4000 0.00798416910675
+Case: lambdaId, Lamda =  30 70.9090909091
+Number of non-zero groups =  6
+num_iter, Noise_Energy 11600 0.00484858489006
+Case: lambdaId, Lamda =  38 220.754716981
+Number of non-zero groups =  15
+num_iter, Noise_Energy 28800 0.00463786957087
+Case: lambdaId, Lamda =  39 300.0
+Number of non-zero groups =  20
+num_iter, Noise_Energy 29999 0.00451511903241
+Bregman iteration step =  1
+Number of non-zero groups =  1
+num_iter, Noise_Energy 700 0.0251953131766
+Bregman iteration step =  2
+Number of non-zero groups =  2
+num_iter, Noise_Energy 800 0.0131287148565
+Bregman iteration step =  5
+Number of non-zero groups =  3
+num_iter, Noise_Energy 900 0.00798416910675
+Bregman iteration step =  13
+Number of non-zero groups =  5
+num_iter, Noise_Energy 1200 0.00484878960659
+Bregman iteration step =  36
+Number of non-zero groups =  10
+num_iter, Noise_Energy 1100 0.00476758528756
+Bregman iteration step =  38
+Number of non-zero groups =  11
+num_iter, Noise_Energy 1100 0.00470967614051
+Bregman iteration step =  39
+Number of non-zero groups =  12
+num_iter, Noise_Energy 1200 0.00468911161598
+Bregman iteration step =  41
+Number of non-zero groups =  13
+num_iter, Noise_Energy 1600 0.0046672843355
+Bregman iteration step =  43
+Number of non-zero groups =  14
+num_iter, Noise_Energy 900 0.00464034209892
+Bregman iteration step =  49
+Number of non-zero groups =  16
+num_iter, Noise_Energy 700 0.00456724813713
+
+Process finished with exit code 0

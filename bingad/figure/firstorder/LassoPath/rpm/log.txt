@@ -1,0 +1,42 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/bingad/bingadsrpm.py"
+Case: lambdaId, Lamda =  32 11.1539418055
+Number of non-zero groups =  2
+num_iter, Noise_Energy 600 0.396306230775
+Case: lambdaId, Lamda =  169 22.0447284345
+Number of non-zero groups =  3
+num_iter, Noise_Energy 2400 0.394598317266
+Case: lambdaId, Lamda =  171 22.363500374
+Number of non-zero groups =  4
+num_iter, Noise_Energy 1000 0.391651166617
+Case: lambdaId, Lamda =  220 34.6332046332
+Number of non-zero groups =  5
+num_iter, Noise_Energy 1900 0.391113198386
+Case: lambdaId, Lamda =  225 36.6871165644
+Number of non-zero groups =  6
+num_iter, Noise_Energy 1200 0.390578743949
+Case: lambdaId, Lamda =  272 82.9020332717
+Number of non-zero groups =  7
+num_iter, Noise_Energy 2400 0.389987790909
+Case: lambdaId, Lamda =  283 117.56225426
+Number of non-zero groups =  8
+num_iter, Noise_Energy 3400 0.389593584135
+Case: lambdaId, Lamda =  291 168.926553672
+Number of non-zero groups =  11
+num_iter, Noise_Energy 5000 0.388948314504
+Case: lambdaId, Lamda =  294 202.027027027
+Number of non-zero groups =  11
+num_iter, Noise_Energy 10000 0.389056799971
+Case: lambdaId, Lamda =  295 216.144578313
+Number of non-zero groups =  12
+num_iter, Noise_Energy 9700 0.389033359557
+Case: lambdaId, Lamda =  297 251.260504202
+Number of non-zero groups =  13
+num_iter, Noise_Energy 16200 0.388799706274
+Case: lambdaId, Lamda =  298 273.475609756
+Number of non-zero groups =  15
+num_iter, Noise_Energy 12700 0.388781289275
+Case: lambdaId, Lamda =  299 300.0
+Number of non-zero groups =  15
+num_iter, Noise_Energy 12700 0.388938797314
+
+Process finished with exit code 0

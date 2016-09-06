@@ -1,0 +1,31 @@
+Initial Noise_Energy 28.3483084161
+Initial Constant Term 0.0140405291926
+Case: lambdaId, Lamda =  0 0.8
+Number of non-zero groups =  2
+num_iter, Noise_Energy 600 27.8489626851
+Case: lambdaId, Lamda =  253 2.11306765524
+Number of non-zero groups =  3
+num_iter, Noise_Energy 600 27.7914146617
+Case: lambdaId, Lamda =  288 2.73381294964
+Number of non-zero groups =  4
+num_iter, Noise_Energy 600 14.175270311
+Case: lambdaId, Lamda =  334 4.453125
+Number of non-zero groups =  5
+num_iter, Noise_Energy 1100 0.228746106817
+Case: lambdaId, Lamda =  382 12.9545454545
+Number of non-zero groups =  6
+num_iter, Noise_Energy 800 0.224081874922
+Case: lambdaId, Lamda =  384 14.0740740741
+Number of non-zero groups =  7
+num_iter, Noise_Energy 600 0.219088741376
+Case: lambdaId, Lamda =  393 23.0303030303
+Number of non-zero groups =  9
+num_iter, Noise_Energy 600 5.03419528286e-12
+Case: lambdaId, Lamda =  394 24.7826086957
+Number of non-zero groups =  7
+num_iter, Noise_Energy 600 0.155325269605
+Case: lambdaId, Lamda =  395 26.8235294118
+Number of non-zero groups =  8
+num_iter, Noise_Energy 600 7.60280727263e-13
+
+Process finished with exit code 0

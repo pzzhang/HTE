@@ -1,0 +1,22 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/second_order/exp9.py"
+Exact Noise Energy: 0.00462787799436
+Case: lambdaId, Lamda =  0 20.0
+Number of non-zero groups =  1
+num_iter, Noise_Energy 2300 0.00552768794073
+Case: lambdaId, Lamda =  21 40.206185567
+Number of non-zero groups =  2
+num_iter, Noise_Energy 4400 0.00522687406249
+Case: lambdaId, Lamda =  30 70.9090909091
+Number of non-zero groups =  4
+num_iter, Noise_Energy 6600 0.00459741171616
+Case: lambdaId, Lamda =  37 174.626865672
+Number of non-zero groups =  5
+num_iter, Noise_Energy 20100 0.00458962192312
+Case: lambdaId, Lamda =  38 220.754716981
+Number of non-zero groups =  11
+num_iter, Noise_Energy 29999 0.00444227715536
+Case: lambdaId, Lamda =  39 300.0
+Number of non-zero groups =  56
+num_iter, Noise_Energy 29999 0.00414109204489
+
+Process finished with exit code 0

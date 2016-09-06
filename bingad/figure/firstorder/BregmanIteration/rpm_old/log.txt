@@ -1,0 +1,24 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/bingad/bingadsrpm.py"
+Bregman iteration step =  9
+Number of non-zero groups =  2
+num_iter, Noise_Energy 800 38079.3402245
+Bregman iteration step =  14
+Number of non-zero groups =  3
+num_iter, Noise_Energy 800 37194.6301186
+Bregman iteration step =  19
+Number of non-zero groups =  5
+num_iter, Noise_Energy 800 35650.5036872
+Bregman iteration step =  27
+Number of non-zero groups =  6
+num_iter, Noise_Energy 800 35565.3279565
+Bregman iteration step =  66
+Number of non-zero groups =  9
+num_iter, Noise_Energy 700 35315.289436
+Bregman iteration step =  135
+Number of non-zero groups =  11
+num_iter, Noise_Energy 700 35256.6075819
+Bregman iteration step =  145
+Number of non-zero groups =  12
+num_iter, Noise_Energy 600 35226.8600888
+
+Process finished with exit code 0

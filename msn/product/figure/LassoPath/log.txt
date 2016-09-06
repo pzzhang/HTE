@@ -1,0 +1,23 @@
+C:\Users\t-pezha\AppData\Local\Continuum\Anaconda2\python.exe "C:/Users/t-pezha/OneDrive - Microsoft/src/msn/product/exp11.py"
+Warning: error in computing B and b
+Initial Noise_Energy 8.35608418519
+Case: lambdaId, Lamda =  8 1.58161323783
+Number of non-zero groups =  2
+num_iter, Noise_Energy 5000 8.22933395013
+Case: lambdaId, Lamda =  178 2.79144651499
+Number of non-zero groups =  3
+num_iter, Noise_Energy 2500 8.17592269148
+Case: lambdaId, Lamda =  344 11.0306707761
+Number of non-zero groups =  4
+num_iter, Noise_Energy 2600 8.17115680834
+Case: lambdaId, Lamda =  387 46.8533375759
+Number of non-zero groups =  5
+num_iter, Noise_Energy 700 4.08546360467
+Case: lambdaId, Lamda =  394 99.4068859099
+Number of non-zero groups =  6
+num_iter, Noise_Energy 800 7.88644106642e-06
+Case: lambdaId, Lamda =  399 500.0
+Number of non-zero groups =  7
+num_iter, Noise_Energy 2200 7.8412788227e-06
+
+Process finished with exit code 0

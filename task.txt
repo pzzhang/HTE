@@ -1,0 +1,2 @@
+clientfront store: tote
+lazy loading
