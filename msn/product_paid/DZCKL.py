@@ -10,7 +10,7 @@ cvxopt.solvers.options['msg_lev'] = 'GLP_MSG_OFF'  # works on cvxopt 1.1.7
 
 
 class DZCKL(object):
-    def __init__(self, g, m, stdmargin):
+    def __init__(self, g, m, marginstd=False, alpha=0.5):
         # g and m are D-dimensional arrays with the same shape
         # g is the point-wise averaged noisy measurement
         # m is the effective percentage of measurements at the corresponding point (inverse of variance)
@@ -21,6 +21,8 @@ class DZCKL(object):
         self.N = np.prod(self.n)
         self.m = m/(1.0*self.N)         #normalization, it is not necessary to do this.
         self.msum = np.sum(self.m)
+        # weight between TV and Lasso
+        self.alpha = alpha
 
         # total degree of freedom and parameter index for 1st order method
         self.nind1 = [0]
@@ -37,6 +39,14 @@ class DZCKL(object):
         self.nT = self.nind2[-1]
         self.nind = self.nind1 + self.nind2[1:]
 
+        # marginal standard deviation
+        if marginstd:
+            self.marginstd1, self.marginstd2 = marginstd
+            self.marginstd2 = [item.flatten(order='F') for item in self.marginstd2]
+        else:
+            self.marginstd1 = [np.ones(num) for num in self.n]
+            self.marginstd2 = [np.ones(self.n[pair[0]]*self.n[pair[1]]) for pair in self.pairs]
+
         # to compute the constant term u_0
         self.b0 = np.zeros(self.nT)
         self.c0 = np.sum(self.m * self.g) / self.msum
@@ -48,7 +58,7 @@ class DZCKL(object):
         self.get_Bbc()
         # the adjacency matrix A and the degree (on each level) at each node nlevel
         # default: fully connected
-        self.A1 = [np.ones((self.n[d], self.n[d]+1), dtype=bool) for d in range(self.D)]
+        self.A1 = [np.ones((self.n[d], self.n[d]), dtype=bool) for d in range(self.D)]
         for d in range(self.D):
             self.A1[d][range(0, self.n[d]), range(0, self.n[d])] = False
         self.nlevel = [np.sum(self.A1[d], axis=1) for d in range(self.D)]
@@ -334,19 +344,17 @@ class DZCKL(object):
         # A is the adjacency matrix of feature d
         # make sure that the node index in A is consistent with that in g and m
         if type(A).__module__ == np.__name__:
-            self.A1[d] = np.ones((self.n[d], self.n[d] + 1), dtype=bool)
+            self.A1[d] = np.ones((self.n[d], self.n[d]), dtype=bool)
             self.A1[d][:, 0:self.n[d]] = A
         elif A == "full":
-            self.A1[d] = np.ones((self.n[d], self.n[d]+1), dtype=bool)
+            self.A1[d] = np.ones((self.n[d], self.n[d]), dtype=bool)
             self.A1[d][range(0, self.n[d]), range(0, self.n[d])] = False
         elif A == "linear":
-            self.A1[d] = np.zeros((self.n[d], self.n[d]+1), dtype=bool)
-            self.A1[d][:, self.n[d]] = True
+            self.A1[d] = np.zeros((self.n[d], self.n[d]), dtype=bool)
             self.A1[d][range(1, self.n[d]), range(0, self.n[d] - 1)] = True
             self.A1[d][range(0, self.n[d] - 1), range(1, self.n[d])] = True
         elif A == "circular":
-            self.A1[d] = np.zeros((self.n[d], self.n[d]+1), dtype=bool)
-            self.A1[d][:, self.n[d]] = True
+            self.A1[d] = np.zeros((self.n[d], self.n[d]), dtype=bool)
             self.A1[d][range(1, self.n[d]), range(0, self.n[d] - 1)] = True
             self.A1[d][range(0, self.n[d] - 1), range(1, self.n[d])] = True
             self.A1[d][0, self.n[d]-1] = True
@@ -356,7 +364,7 @@ class DZCKL(object):
 
         self.nlevel[d] = np.sum(self.A1[d], axis=1)
 
-    def get_K(self):
+    def get_Knode(self):
         # K for first order effect
         for d in range(self.D):
             self.K1[d] = np.zeros((np.sum(self.A1[d]), self.n[d]))
@@ -383,6 +391,30 @@ class DZCKL(object):
             for j in range(n0):
                 self.K2[pairid][(j*T1+n1*T0):((j+1)*T1+n1*T0), j::n0] = self.K1[pair[1]]
                 self.A2[pairid][j::n0, j::n0] = self.A1[pair[1]][:, 0:n1]
+        # total K
+        self.K = self.K1 + self.K2
+        self.A = self.A1 + self.A2
+
+    def get_Kedge(self):
+        # K for first order effect
+        for d in range(self.D):
+            tvK = generateK(self.A1[d], self.marginstd1[d])
+            lassoK = np.diag(1./self.marginstd1[d])
+            self.K1[d] = np.vstack(((1-self.alpha)*tvK, self.alpha*lassoK))
+        # K and A for second order effect
+        for pairid, pair in enumerate(self.pairs):
+            n0 = self.n[pair[0]]
+            n1 = self.n[pair[1]]
+            # get the second order adjacency matrix
+            self.A2[pairid] = np.zeros((n0 * n1, n0 * n1), dtype=bool)
+            for i in range(n1):
+                self.A2[pairid][i * n0:(i + 1) * n0, i * n0:(i + 1) * n0] = self.A1[pair[0]][:, 0:n0]
+            for j in range(n0):
+                self.A2[pairid][j::n0, j::n0] = self.A1[pair[1]][:, 0:n1]
+            # get the corresponding total variation matrix
+            tvK = generateK(self.A2[pairid], self.marginstd2[pairid])
+            lassoK = np.diag(1./self.marginstd2[pairid])
+            self.K2[pairid] = np.vstack(((1-self.alpha)*tvK, self.alpha*lassoK))
         # total K
         self.K = self.K1 + self.K2
         self.A = self.A1 + self.A2
@@ -582,19 +614,13 @@ class DZCKL(object):
                     print("[%d] : energy %1.10e \t fidelity %e \t TV %e" % (k, energy, fidelity, tv))
 
         # postprocessing
-        u1 = [None]*self.D
-        for d in range(self.D):
-            u1[d] = x[self.nind1[d]:self.nind1[d + 1]]
-        u2 = [None] * len(self.pairs)
-        for pairid, pair in enumerate(self.pairs):
-            u2flat = x[self.nind2[pairid]:self.nind2[pairid + 1]]
-            u2[pairid] = np.reshape(u2flat, (self.n[pair[0]], self.n[pair[1]]), order='F')
+        u = self.postprocess(x)
 
         # return value
         if return_energy:
-            return en, u1, u2
+            return en, x
         else:
-            return u1, u2
+            return x
 
     def P_PDALG2(self, lam, b, Gamma, U, tinv, sigmainv, theta, x, Y, tol=1e-8, max_iter=30000):
         # creat auxillary variables
@@ -653,17 +679,18 @@ class DZCKL(object):
             Y[d] = np.zeros(m)
 
         # compute lasso path
-        u_list = [None]*nstep
-        u_list[0] = 1.0*x
+        u_list = [1.0*x]
+        uls_list = [1.0 * x]
+        lambda_list = [0.0]
         noise_energy_list = [0.5*self.c]
-        uls_list = [1.0*x]
+        sol_list = [self.postprocess(x)]
+        dof_list = [1] # for the constant one
         for i, lam in enumerate(lam_list):
             # preconditioning
             Gamma, U = np.linalg.eigh(lam * self.B + np.diag(tinv), UPLO='U')
             # store last step solution
             x_old = 1.0 * x
             num_iter, x, Y = self.P_PDALG2(lam, self.b, Gamma, U, tinv, sigmainv, theta, x_old, Y, tol=1e-8, max_iter=30000)
-            u_list[i] = 1.0 * x
             # if change, do something
             is_changed = ((np.abs(x) > 2 * tol) == (np.abs(x_old) > 2 * tol))
             if not(is_changed.all()):
@@ -673,10 +700,19 @@ class DZCKL(object):
                 print "Number of non-zero groups = ", num_groups
                 print "num_iter, Noise_Energy", num_iter, noise_energy
                 self.print_effect(x_ls, lam, i, "LassoPath")
+                u_list.append(1.0 * x)
                 uls_list.append(1.0*x_ls)
+                lambda_list.append(lam)
                 noise_energy_list.append(noise_energy)
+                sol_list.append(self.postprocess(x_ls))
+                dof_list.append(num_groups+1)
 
-        return u_list, noise_energy_list, uls_list, lam_list
+        # compute AIC and BIC
+        dof_total = np.sum(self.m > 0.0)
+        aic = 2 * np.array(dof_list) + 2 * self.N * np.array(noise_energy_list)
+        bic = np.log(dof_total) * np.array(dof_list) + 2 * self.N * np.array(noise_energy_list)
+
+        return u_list, uls_list, lambda_list, noise_energy_list, sol_list, dof_list, aic, bic
 
     def lars_path(self):
         # solve lass path by lars algorithm
@@ -754,6 +790,19 @@ class DZCKL(object):
 
         return u_list, noise_energy_list, uls_list
 
+    def postprocess(self, x):
+        # postprocessing
+        u0 = self.get_u0(x)
+        u1 = [None] * self.D
+        for d in range(self.D):
+            u1[d] = x[self.nind1[d]:self.nind1[d + 1]]
+        u2 = [None] * len(self.pairs)
+        for pairid, pair in enumerate(self.pairs):
+            u2flat = x[self.nind2[pairid]:self.nind2[pairid + 1]]
+            u2[pairid] = np.reshape(u2flat, (self.n[pair[0]], self.n[pair[1]]), order='F')
+
+        return u0, u1, u2
+
     def blockLS(self, x, tol):
         utrans = []
         for termid, termA in enumerate(self.A):
@@ -774,14 +823,7 @@ class DZCKL(object):
 
     def print_effect(self, u, lam, stepid, str_method):
         # postprocessing
-        u0 = self.get_u0(u)
-        u1 = [None] * self.D
-        for d in range(self.D):
-            u1[d] = u[self.nind1[d]:self.nind1[d + 1]]
-        u2 = [None] * len(self.pairs)
-        for pairid, pair in enumerate(self.pairs):
-            u2flat = u[self.nind2[pairid]:self.nind2[pairid + 1]]
-            u2[pairid] = np.reshape(u2flat, (self.n[pair[0]], self.n[pair[1]]), order='F')
+        u0, u1, u2 = self.postprocess(u)
         # patch all data into a big matrix
         effect = np.zeros((self.nt1, self.nt1))
         # lower triangular part is the constant effect
@@ -858,3 +900,11 @@ def to_blockdiag(K):
         r += rr
         c += cc
     return data
+
+
+def generateK(A, marginstd):
+    node0, node1 = np.nonzero(np.triu(A, 1))
+    tvK = np.zeros((len(node0), len(marginstd)))
+    tvK[np.arange(len(node0)), node0] = -1./np.sqrt(marginstd[node0]**2 + marginstd[node1]**2)
+    tvK[np.arange(len(node1)), node1] = -tvK[np.arange(len(node0)), node0]
+    return tvK
